@@ -2,4 +2,4 @@
 
 ## About 
 
-Bird's eye view of all projects, technologies, articles currently relevant for me.
+Bird's eye view of relevant projects, technologies, articles.
