@@ -12,10 +12,11 @@
       <div class="container">
         <h1>Maintaining GitHub Pages with Html</h1>
         <h2>Workflow / Steps Involved</h2>
-
         <section id="downloads">
-          
-          <a href="https://github.com/abdullah85/abdullah85.github.io" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+	  <span style="background-color:lightgray;margin:10px"><a href="index.html">Home Page</a></span>
+
+          <a href="https://github.com/abdullah85/abdullah85.github.io/blob/gh-pages/gh-pages-nojekyll.html"
+	     target="_blank" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
       </div>
     </header>
@@ -23,13 +24,17 @@
     <div class="container">
       <section id="main_content">
 	<h1> Steps </h1>
+	All steps detailed below were tried for this site
 	<ol>
 	  <li> First, create the required branch <q>gh-pages</q> by one of the following </li>
 	  <ul>
 	    <li> Using <a href="https://github.com">GitHub</a> web interface</li>
-	    <li> Create on the command line and push upstream (I used this method)</li>
+	    <li> Create on the command line and push upstream (I used this method
+	      <a href="https://github.com/abdullah85/abdullah85.github.io/tree/gh-pages/">for this site</a>)
+	    </li>
 	  </ul>
-	  <li> Create an index.html file in root folder of the repository in <q>gh-pages</q> branch.</li>
+	  <li> Create an <a href="https://github.com/abdullah85/abdullah85.github.io/blob/gh-pages/index.html"
+			 target="_blank">index.html</a> file in root folder of the repository in <q>gh-pages</q> branch.</li>
 	  <li> Commit and push above index.html alongwith other static resources required for the complete website.</li>
 	  <li> Set the publishing source by selecting the <q>gh-pages</q> branch  and root folder for folder location,
 	    as detailed 
@@ -44,9 +49,16 @@
 	  the site uploaded by you.</p>
 
 	<p>
-	  Now, if needed we can use a special /docs folder in the repository for hosting the site
-	  and also consider using a static site generator if you need to write in markdown but get
+	  Now, if needed we can use a special /docs folder in the repository for hosting the site.
+	</p>
+
+	<p>Also consider using a static site generator if you need to write in markdown but get
 	  html output above for webpages.
+	</p>
+
+	<p>There are many static site generators that one may
+	  choose from with <a href="https://jekyllrb.com/" target="_blank">jekyll</a>
+	  being the default generator used by GitHub.
 	</p>
 	    
 	<!-- <h1> Next</h1>
