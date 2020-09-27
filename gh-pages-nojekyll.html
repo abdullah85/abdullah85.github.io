@@ -22,17 +22,21 @@
 
     <div class="container">
       <section id="main_content">
-	<h1>Steps </h1>
+	<h1> Steps </h1>
 	<ol>
-	  <li>First, create the required branch <q>gh-pages</q> by one of the following </li>
+	  <li> First, create the required branch <q>gh-pages</q> by one of the following </li>
 	  <ul>
-	    <li>Using <a href="https://github.com">GitHub</a> web interface</li>
-	    <li>Create on the command line and push upstream (I used this method)</li>
+	    <li> Using <a href="https://github.com">GitHub</a> web interface</li>
+	    <li> Create on the command line and push upstream (I used this method)</li>
 	  </ul>
-	  <li>Create an index.html file in root folder of the repository in <q>gh-pages</q> branch.</li>
-	  <li>Commit and push above index.html alongwith other static resources required for the complete website.</li>
-	  <li><a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites"
-		 target="_blank">Switch</a> <q>gh-pages</q> branch.</li>
+	  <li> Create an index.html file in root folder of the repository in <q>gh-pages</q> branch.</li>
+	  <li> Commit and push above index.html alongwith other static resources required for the complete website.</li>
+	  <li> Set the publishing source by selecting the <q>gh-pages</q> branch  and root folder for folder location,
+	    as detailed 
+	    <a href="https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites"
+		 target="_blank">here</a>.</li>
+	  <li> Finally, create and add  a <q>.nojekyll</q> file to the repository in <q>gh-pages</q>, as explained
+	    <a target="_blank" href="https://kbroman.org/simple_site/pages/nojekyll.html">here</a>.</li>
 	</ol>
 	Congratulations !!!
 
@@ -40,7 +44,8 @@
 	  the site uploaded by you.</p>
 
 	<p>
-	  Now, consider using a static site generator if you need to write in markdown but get
+	  Now, if needed we can use a special /docs folder in the repository for hosting the site
+	  and also consider using a static site generator if you need to write in markdown but get
 	  html output above for webpages.
 	</p>
 	    
