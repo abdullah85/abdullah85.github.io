@@ -17,50 +17,62 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   </head>
   <body>
     <div class="resume">
-      <div class="header">
-	<div class="title">Abdullah Abdul Khadir</div>	
-	<div class="left">
-	  <div class="img_holder">
-	    <!-- AAK-plain.jpg -->
-	    <img src="images/AAK-20210410-cropped.jpg" alt="picture">
-	    <!-- <img src="images/profile.jpg" alt="picture"> -->
-	    <!-- <img src="images/AAK-20210410-full.jpeg" alt="picture"> -->
-	  </div>
-	</div>
-	<div class="right">
-	  <div class="contact">
-	    <ul>
-	      <li>
-		<div class="li_wrap">
-		  <div class="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
-		  <div class="text">+91-9600112691</div>
-		</div>
-	      </li>
-	      <li>
-		<div class="li_wrap">
-		  <div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
-		  <div class="text">abdullah.ak7@gmail.com</div>
-		</div>
-	      </li>
-	    </ul>
-	  </div>
+      <div class="left">
+	<div class="title">Abdullah Abdul Khadir</div>
+	<div class="contact">
+	  <ul>
+	    <li>
+	      <div class="li_wrap">
+		<div class="icon"><i class="fas fa-mobile-alt" aria-hidden="true"></i></div>
+	      </div>
+	    </li>
+	    <li>
+	      <div class="li_wrap">
+		<div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+	      </div>
+	    </li>
+	  </ul>
 	</div>
       </div>
+      <div class="right">
+	Highly skilled Software Engineer delivering enterprise grade business software solutions.
+	Technically, my professional journey has primarily been in web development using various components
+	some of which are listed below
+	<ol>
+	  <li> Front-end</li>
+	  <ol>
+	    <li> HTML5, CSS, Javascript</li>
+	    <li> Vue.js framework, D3.js</li>
+	    <li> jQuery (jQWidgets)</li>
+	  </ol>
+	  <li> Middleware</li>
+	  <ul>
+	    <li> Python development on Flask web framework</li>
+	    <li> Laravel</li>
+	    <li> nginx configurations for both flask, laravel applications</li>
+	  </ul>
+	  <li> Backend</li>
+	  <ul>
+	    <li> SQLAlchemy - Python ORM  </li>
+	    <li> Eloquent - Laravel ORM</li>
+	    <li> PostgreSQL, MySQL DBMS </li>
+	  </ul>	
+	</ol>
+      </div>
+    </div>
+    <script type="text/javascript">
+     function ShowContactDetails(){
+       var icon0 = document.getElementsByClassName("icon")[0];
+       icon0.addEventListener('click', function(event) {
+	 alert('Code : +91\nNumber : 9600 One One Two Six 91');
+       });
+       var icon1 = document.getElementsByClassName("icon")[1];
+       icon1.addEventListener('click', function(event) {
+	 alert('abdullah<dot>ak7<at>gmail<dot>com');
+       });
+
+     }
+     ShowContactDetails();
+    </script>    
   </body>
 </html>
-
-
-<!--
-	      <li>
-		<div class="li_wrap">
-		  <div class="icon"><i class="fab fa-github" aria-hidden="true"></i></div>
-		  <div class="text">abdullah85.github.io</div>
-		</div>
-	      </li>
-	      <li>
-		<div class="li_wrap">
-		  <div class="icon"><i class="fas fa-map-signs" aria-hidden="true"></i></div>
-		  <div class="text">11/31 Gurubux Street, Alandur, Chennai, Tamil Nadu</div>
-		</div>
-	      </li>
--->
