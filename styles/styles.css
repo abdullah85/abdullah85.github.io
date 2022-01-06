@@ -10,23 +10,12 @@
 .resume{
     width: 975px;
     margin-left:15%;
-//    justify-content:center;
-//    align-items:center;
     background: #fff;
     margin: 25px auto;
-    display: flex;
-    border: solid black 1px;
-}
-
-.header{
-//    background: #292b2f;
-//    padding: 15px 30px;
-//    color: #fff;
-    height: 240px;
-}
-
-.header .title {
-    color: blue;
+    display: auto;
+    border: solid black 3px;
+    padding : 7pt;
+    border-radius: 5pt;
 }
 
 .title{
@@ -39,6 +28,9 @@
     position: relative;
     text-align: center;
     margin-bottom: 15px;
+    width:5%;
+    background: rgba(9,9,9,0.5);
+    margin-right: -15pt;    
 }
 
 .title:before{
@@ -46,62 +38,44 @@
     position: absolute;
     top: 35px;
     right: 179px;
-    width: 395px;
+    width: 15%;
     height: 1px;
-/**    background: #555;**/
 }
 
-.left{
+.titleText {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+    color: #000;
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+    width:100%;
+}
+
+.top {
     background: #aaa;
-    width: 317px;
-    height: 315px;
-    padding: 10 10px;
-//    border-right : solid #aaa 1px;
+    width: calc(100%-5px);
+    height: 37pt;
+    padding: 15pt 10pt 0pt;
+    border-top-left-radius:5pt;
+    border-top-right-radius:5pt;    
 }
 
-.right{
+.bottom{
     padding: 5pt;
-    width: calc(975px - 157px);
+    width: calc(100%-5px);    
     background : #d9d9d9;
 }
 
-.left .img_holder{
-    text-align: center;
-    padding: 10 0px;
-}
-
-.left .img_holder img{
-    width:  237px;
-    height: 257px;
-    top:10 10px;
-    border-radius: 30px;
-}
-
-.pb{
-    padding-bottom: 20px;
-}
-
-.contact .li_wrap{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.contact .li_wrap .icon{
-    width: 50px;
-    height: 50px;
+.icon {
     background: #fff;
-    border-radius: 15px;
-    display: flex;
+    border-radius: 5px;
     align-items: center;
     justify-content: center;
-    margin-right: 15px;
+    margin-left: 7pt;
+    padding:3pt;
     cursor: pointer;
-}
-
-.contact .li_wrap .text{
-    width: calc(100% - 50px);
-    word-break: break-word;
-    color: #aaa;
 }
